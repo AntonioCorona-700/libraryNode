@@ -1,0 +1,22 @@
+{
+  "name": "biblionode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mssql": "^7.2.1",
+    "typeorm": "^0.2.38"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13"
+  }
+}
